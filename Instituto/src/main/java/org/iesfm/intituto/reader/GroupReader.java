@@ -1,5 +1,7 @@
-package org.iesfm.intituto;
+package org.iesfm.intituto.reader;
 
+import org.iesfm.intituto.Group;
+import org.iesfm.intituto.Student;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 

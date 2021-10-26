@@ -1,5 +1,8 @@
 package org.iesfm.intituto;
 
+import com.fasterxml.jackson.databind.ObjectMapper;
+import org.iesfm.intituto.reader.InstitutoReader;
+import org.iesfm.intituto.writer.InstitutoWriter;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.context.ApplicationContext;
@@ -15,6 +18,12 @@ public class Main {
         InstitutoReader programa = context.getBean(InstitutoReader.class);
         Instituto instituto = programa.readInstituto();
 
-        log.info(String.valueOf(instituto));
+        ObjectMapper objectMapper = new ObjectMapper();
+
+        String path = "/tmp/instituto.json";
+
+        InstitutoWriter institutoWriter = new InstitutoWriter(objectMapper, path);
+
+        institutoWriter.write(instituto);
     }
 }

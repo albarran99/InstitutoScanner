@@ -1,5 +1,7 @@
-package org.iesfm.intituto;
+package org.iesfm.intituto.reader;
 
+import org.iesfm.intituto.Group;
+import org.iesfm.intituto.Instituto;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
@@ -35,4 +37,5 @@ public class InstitutoReader {
         }
         return new Instituto(nameInstituto, groups);
     }
+
 }
