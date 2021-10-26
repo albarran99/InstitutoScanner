@@ -103,3 +103,25 @@
 2021-10-26 10:48:22 INFO  StudentReader:20 - Introduce un nombre de alumno
 2021-10-26 10:48:27 INFO  StudentReader:22 - Introduce el apellido
 2021-10-26 10:48:30 INFO  StudentReader:24 - Introduce el StudentNif
+2021-10-26 10:53:03 INFO  InstitutoReader:27 - Introduce el nombre de el Intituto
+2021-10-26 10:53:33 INFO  InstitutoReader:29 - Introduce el numero de grupos a mostrar
+2021-10-26 10:53:33 INFO  ScannerUtils:39 - Introduce un numero positivo
+2021-10-26 10:53:36 INFO  StudentReader:27 - Introduce la letra
+2021-10-26 10:53:38 INFO  StudentReader:29 - Introduce el curso
+2021-10-26 10:53:42 INFO  StudentReader:31 - Introduce el numero de estudiantes a mostrar
+2021-10-26 10:53:42 INFO  ScannerUtils:39 - Introduce un numero positivo
+2021-10-26 10:53:46 INFO  StudentReader:20 - Introduce un nombre de alumno
+2021-10-26 10:53:49 INFO  StudentReader:22 - Introduce el apellido
+2021-10-26 10:54:06 INFO  StudentReader:24 - Introduce el StudentNif
+2021-10-26 10:54:09 INFO  InstitutoWriter:30 - instituto escrito en fichero adecuadamente
+2021-10-26 10:54:45 INFO  InstitutoReader:27 - Introduce el nombre de el Intituto
+2021-10-26 10:59:50 INFO  InstitutoReader:29 - Introduce el numero de grupos a mostrar
+2021-10-26 10:59:50 INFO  ScannerUtils:39 - Introduce un numero positivo
+2021-10-26 10:59:54 INFO  StudentReader:27 - Introduce la letra
+2021-10-26 10:59:56 INFO  StudentReader:29 - Introduce el curso
+2021-10-26 10:59:59 INFO  StudentReader:31 - Introduce el numero de estudiantes a mostrar
+2021-10-26 10:59:59 INFO  ScannerUtils:39 - Introduce un numero positivo
+2021-10-26 11:00:02 INFO  StudentReader:20 - Introduce un nombre de alumno
+2021-10-26 11:00:05 INFO  StudentReader:22 - Introduce el apellido
+2021-10-26 11:00:08 INFO  StudentReader:24 - Introduce el StudentNif
+2021-10-26 11:00:10 INFO  InstitutoWriter:30 - instituto escrito en fichero adecuadamente

@@ -11,6 +11,8 @@ import java.net.URISyntaxException;
 
 public class InstitutoWriter {
 
+    private static final Logger log = LoggerFactory.getLogger(InstitutoWriter.class);
+
     private ObjectMapper objectMapper;
     private String path;
 
@@ -25,6 +27,6 @@ public class InstitutoWriter {
         } catch (IOException e) {
             e.printStackTrace();
         }
-
+        log.info("instituto escrito en fichero adecuadamente");
     }
 }
